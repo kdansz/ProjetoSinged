@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.interface{
+
+    font-size: 2vw;
+    width: 98.5vw;
+    height: 7vh;
+    bottom: 20px;
+    margin: .5vh 0 .3vh .8vw; 
+    word-spacing: .6vw;
+    background: green;
+    border: 5px solid red;
+
+
+}
+
+.links{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 500;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: 9vw;
+    background: greenyellow;
+    padding: 0 8px 0 10px;
+    line-height: 6vh;
+
+}
+
+
+
+
+.img{
+    height: 500px;
+    width: 932px;
+    height: 906.9px;
+    margin-left: .8vw;
+    display: inline-block;
+    border: 5px solid aqua;
+}
+
+
+.textos{
+    
+    height: 500px;
+    display:inline-block;
+    position: absolute;
+    background: yellow;
+    margin-left: .5vw;
+    border: 2px solid purple;
+
+}
+
+.txt1{
+    word-spacing: 250;
+    font-size: 80px;
+    text-align: center;
+    background: red;
+    font-weight: 900;
+    letter-spacing: 5px;
+
+}
+
+.txt2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.p1{
+
+    font-size: 20px;
+    background: blue;
+    text-align: justify;
+    padding: 0 8px 0 0;
+    word-spacing: 5px;
+
+}
+
+
+
+.botao{
+    font-size: 20px;
+    border-radius: 30px;
+    width: 15vw;
+    height: 4.8vh;
+    position: relative;
+    top: 5vh;
+    left: 17vw;
+    font-weight: 900;
+    color: orangered;
+    border: 5px solid purple;
+    cursor: pointer;
+ 
+}
+
+
+.links:hover{
+    opacity: 0.1;
+}
+
+.botao:hover{
+    opacity: 0.8;
+}
+    
+
+/* Tela Iphone 5/SE Portrait */
+
+@media screen and (max-width: 320px ) and (orientation:portrait) {
+
+    .interface{
+        width: 99%;
+        font-size: 10px;
+        margin-right: 0;
+        margin-left: 2px;
+    }
+
+    .links{
+        
+        word-spacing: 0;
+        margin: 0;
+        margin-left: 2px;
+        margin-right: 1px;
+        line-height: 5.6vh;
+        font-size: 15px;
+        padding: .5px 0px .5px 3.2px;|
+    }
+
+    .clinks{
+        padding-right: 2.2px;
+    }
+
+    .img{
+        width: 99%;
+        height: 50%;
+        display: block;
+        margin-right: 0;
+        margin-left: 2px;
+    }
+
+    .textos{
+        display: block;
+        width: 99%;
+        margin-left: 2px;
+        margin-right: 0;
+    }
+
+    .txt1{
+        line-height: 13vh; 
+        padding: 0 0 10px 0;
+    }
+
+    .txt2{
+        line-height: 9.3vh;
+        font-size: 35px;
+    }
+
+    .p1{
+        word-spacing: 0;
+        line-height: 1.1;
+    }
+
+    .link{
+        text-decoration: none;
+    }
+    
+    .botao{
+        width: 65%;
+        height: 7%;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        display: block;
+        
+    }
+}
+
+/* Tela Iphone 5/SE Landscape */
+
+@media screen and (max-width: 568px) and (orientation: landscape){
+
+    .interface{
+       width: 99%;
+       height: 50px;
+       margin-left: 2px;
+       margin-right: 0;
+       margin-top: 1px;
+    }
+
+    .links{
+        word-spacing: 0;
+        margin: 0 0 0 5px;
+        font-size: 25px;
+        line-height: 1.6;
+    }
+
+    .img{
+        height: 266px;
+        width: 284px;
+        margin-left: 2px;
+        
+        
+    }
+
+    .textos{
+        width: 47%;
+        height: 266px;
+        
+        
+
+    }
+
+
+    .txt1{
+        font-size: 35px;
+        height: 39px;
+        letter-spacing: 0;
+
+    }
+
+    .txt2{
+        font-size: 20px;
+        height: 23px;
+
+
+    }
+
+    .p1{
+        font-size: 14px;
+        word-spacing: 0;
+        line-height: 1.1;
+        padding: 0 2px 0 2px;
+        text-align: justify;
+    }
+
+
+    .link{
+        text-decoration: none;
+      
+    }
+
+
+    .botao{
+        width: 45%;
+        height: 9%;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        border: 3px solid purple;
+        line-height: 5px;
+        position: absolute;
+        left: 33%;
+        top: 82%;
+        
+        
+
+    }
+
+
+
+}
