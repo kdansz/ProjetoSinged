@@ -258,11 +258,132 @@
         position: absolute;
         left: 33%;
         top: 82%;
-        
-        
+    }
+}
+
+/* Tela Iphone 6/7/8 portrait */
+
+@media screen and (max-width: 375px) and (orientation: portrait){
+
+    .interface{
+        width: 99.5%;
+        height: 90%;
+        margin-left: 2px;
+        margin-right: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .links{
+        word-spacing: 0;
+        margin: 0 0 0 5px;
+        line-height: 2;   
+        padding: 2px 8px;|
+        line-height: 1,7;
 
     }
+
+    .clinks{
+        padding: 0 30%;
+    }
+
+    .img{
+        width: 99.5%;
+        height: 50%;
+        margin: 0 0 0 2px;
+        display: block;
+    }
+
+    .textos{
+        width: 99.5%;
+        height: 62%;
+        margin: 2px 0 0px 2px;
+        display: block;
+    }
+
+    .txt1{
+        letter-spacing: 0;
+        font-size: 52px;
+        line-height: 1.5;
+    }
+
+    .txt2{
+        letter-spacing: 0;
+        font-size: 30px;
+        line-height: 6vh;
+        padding: 0 0 8px 0;
+    }
+
+    .p1{
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 1.2;
+        margin: 0;
+        text-align: justify;
+        font-size: 20px;
+        
+    }
+
+    .link{
+        display: block;
+        text-decoration: none;
+        
+    }
+
+    .botao{
+        width: 50%;
+        height: 50%;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        border: 3px solid purple;
+        display: block;
+        position: relative;
+        left: 98px;
+        top: 19px ; 
+       
+        
+        
+        
+        
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
