@@ -421,9 +421,9 @@
 
 }
 
-/* Iphone 6/7/8 Plus */
+/* Iphone 6/7/8 Plus Portrait */
 
-@media screen and (min-width: 376px) and (max-width: 414px ){
+@media screen and (min-width: 376px) and (max-width: 414px ) and (orientation: portrait) {
 
     .interface{
         width: 99.2%;
@@ -500,6 +500,81 @@
        
     }
 
+}
 
+
+/* IPhone 6/7/8 Plus Landscape */
+
+@media screen and (min-width: 668px) and (max-width: 736px) and (orientation: landscape) {
+
+    .interface{
+        width: 99.7% ;
+        height: 70px;
+        font-size: 35px;
+        margin: 2px;
+    }      
+    
+    .links{
+        margin: 0 0 0 13px;
+        line-height: 1.65;
+        padding: 0 0 0 7px;
+
+    
+    }
+
+    .clinks{
+        padding: 0 1%;
+        margin-right: 7px;
+
+    }
+
+    .img{
+        width: 50%;
+        height: 339px;
+        margin-left: 2px;
+    }
+
+    .textos{
+        width: 49.5%;
+        height: 339px;
+        margin: 0 2px 0 2px;
+    }
+
+    .txt1{
+        letter-spacing: 0;
+        font-size: 60px;
+    }
+
+    .txt2{
+        font-size: 35px;
+        letter-spacing: 0;
+        word-spacing: 0;
+
+
+
+    }
+
+    .p1{
+        font-size: 18px;
+        letter-spacing: 0;
+        word-spacing: 0;
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        line-height: 1.1;
+    }
+
+    .botao{
+        width: 50%;
+        height: 9%;
+        border: 3px solid purple;
+        font-weight: 200;
+        font-size: 16px;
+        position: relative;
+        left: 101px;
+        
+
+
+    }
 
 }
