@@ -296,7 +296,7 @@
 
     .textos{
         width: 99.5%;
-        height: 62%;
+        height: 420px;
         margin: 2px 0 0px 2px;
         display: block;
     }
@@ -339,7 +339,7 @@
         border: 3px solid purple;
         display: block;
         position: relative;
-        left: 98px;
+        left: 89px;
         top: 19px ;      
     }
 }
@@ -510,7 +510,7 @@
     .interface{
         width: 99.7% ;
         height: 70px;
-        font-size: 35px;
+        font-size: 34px;
         margin: 2px;
     }      
     
@@ -572,8 +572,75 @@
         font-size: 16px;
         position: relative;
         left: 101px;
-        
+    
+    }
 
+}
+
+/* Iphone X Landscape */
+
+@media screen and (min-width: 737px) and (max-width: 812px) and (orientation: landscape){
+
+    .interface{
+        width: 99.7%;
+        height: 68px;
+        margin: 2px;   
+    }
+
+    .links{
+        margin: 0 0 0 26px;
+        padding: 0 0 0 7px;
+        font-size: 35px;
+        line-height: 1.6;
+    }
+
+    .clinks{
+        padding: 0 4px 0 5px;
+        
+    }
+
+    .img{
+        margin-left: 2px;
+        width: 50%;
+        height: 302px;
+    }
+
+    .textos{
+        width: 49.5%;
+        height: 302px;
+        margin: 0 2px 0 2px;
+    }
+
+    .txt1{
+        letter-spacing: 0;
+        font-size: 55px;
+        height: 65px;
+    }
+
+    .txt2{
+        letter-spacing: 0;
+        font-size: 33px;
+        height: 41px;
+    }
+
+    .p1{
+        letter-spacing: 0;
+        word-spacing: 0;
+        text-align: justify;
+        padding: 0;
+        line-height: 1.2;
+        font-size: 16px;
+    }
+
+    .botao{
+        width: 50%;
+        height: 9%;
+        border: 3px solid purple;
+        font-weight: 200;
+        font-size: 15px;
+        position: relative;
+        left: 107px;
+        line-height: 1.4;
 
     }
 
