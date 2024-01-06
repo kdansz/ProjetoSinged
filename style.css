@@ -645,3 +645,53 @@
     }
 
 }
+
+@media screen and (max-width: 1080px) and (orientation: portrait) {
+
+    .interface{
+        width: 99.7%;
+        height: 130px;
+        margin: 2px;
+    }
+
+    .links{
+        margin: 0 0 0 20px;
+        padding: 0 2px 0 5px;
+        line-height: 2;
+        font-size: 55px;
+    }
+
+    .img{
+        display: block;
+        width: 99.7%;
+        height: 1200px;
+        margin: 0 2px 0 2px;
+    }
+
+    .textos{
+       display: block;
+        margin: 2px;
+    }
+
+    .txt1{
+        letter-spacing: 0;
+    }
+    
+    .txt2{
+        height: 50px;
+    }
+
+    .p1{
+        letter-spacing: 0;
+        word-spacing: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .botao{
+        width: 63%;
+        height: 10%;
+
+    }
+
+}
