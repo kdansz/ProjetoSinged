@@ -130,7 +130,7 @@
         margin-right: 1px;
         line-height: 5.6vh;
         font-size: 15px;
-        padding: .5px 0px .5px 3.2px;|
+        padding: .5px 0px .5px 3.2px;
     }
 
     .clinks{
@@ -278,7 +278,7 @@
         word-spacing: 0;
         margin: 0 0 0 5px;
         line-height: 2;   
-        padding: 2px 8px;|
+        padding: 2px 8px;
         line-height: 1,7;
 
     }
@@ -418,5 +418,88 @@
         top: 86%;
         
     }
+
+}
+
+/* Iphone 6/7/8 Plus */
+
+@media screen and (min-width: 376px) and (max-width: 414px ){
+
+    .interface{
+        width: 99.2%;
+        height: 90px;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .links{
+        word-spacing: 0;
+        letter-spacing: 0;
+        margin: 0 0 0 10px;
+        padding: 0 5px 0 5px;
+        line-height: 1.8;
+
+    }
+
+    .clinks{
+        padding: 0 22%;
+        margin: 0 10px 0 22px;
+
+    }
+    
+    .img{
+        width: 99.2%;
+        height: 580px;
+        display: block;
+        margin: 0 2px 0 2px;
+        
+    }
+
+    .textos{
+        display: block;
+        height: 380px;
+        margin: 2px 0 0 2px;
+    
+    }
+
+    .txt1{
+        letter-spacing: 0;
+        font-size: 65px;
+        height: 80px;
+    }
+
+    .txt2{
+        letter-spacing: 0;
+        font-size: 35px;
+        height: 45px;
+        margin-top: 2px;
+    }
+
+    .p1{
+        letter-spacing: 0;
+        word-spacing: 0;
+        line-height: 1.2;
+        font-size: 19px;
+        text-align: justify;
+        padding: 0;
+    }
+
+    .botao{
+        width: 50%;
+        height: 8%;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        border: 3px solid purple;
+        line-height: 1;
+        position: relative;
+        left: 23.4vw;
+        top: 5%;
+       
+    }
+
+
 
 }
